@@ -39,9 +39,22 @@
 #     print(agents[i])
 #     i+=1
 #mission 8
-i=1
-while i*2<100:
-    i=i*2
-print(i)    
-    
+# i=1
+# while i*2<100:
+#     i=i*2
+# print(i)    
+#miision 9
+data = [3,7,2,-1,5]
+i=0
+sum=0
+while i < len(data):
+    if data[i]==-1:
+        break
+    sum+=data[i]
+    i+=1
+print(sum)    
+       
+
+      
+
     
