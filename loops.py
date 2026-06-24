@@ -33,10 +33,16 @@
 #         print(i)
 #     i+=1
 #missin 6
-agents= ["alpha","bravo","charlie"]
-i=0
-while i<len(agents):
-    print(agents[i])
+# agents= ["alpha","bravo","charlie"]
+# i=0
+# while i<len(agents):
+#     print(agents[i])
+#     i+=1
+#mission 8
+i=1
+while i*2<100:
+    print(i*2)
     i+=1
+
     
     
