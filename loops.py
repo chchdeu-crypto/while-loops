@@ -1,6 +1,13 @@
-#mission 1
-numbers=[1,2,3,4,5,]
-a=0
-while a < len(numbers):
-    print(a)
-    a+=1
+# # #mission 1
+# numbers=[1,2,3,4,5,]
+# a=0
+# while a < len(numbers):
+#     print(a)
+#     a+=1
+
+#mission 2
+numbers_2=[10,9,8,7,6,5,4,3,2,1]
+i=0
+while i < len(numbers_2):
+    print(numbers_2[i])
+    i+=1
