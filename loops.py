@@ -41,8 +41,7 @@
 #mission 8
 i=1
 while i*2<100:
-    print(i*2)
-    i+=1
-
+    i=i*2
+print(i)    
     
     
