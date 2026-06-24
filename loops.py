@@ -79,13 +79,21 @@
 #     print(num[i])
 #     i-=1
 #mission 4
-dats=[10,30,55,20,80]
+# dats=[10,30,55,20,80]
+# i=0
+# while i < len(dats):
+#     a=dats[i]
+#     if a > 50:
+#         print([i])
+#     i+=1 
+#mission 5
+secret=42
+guess=[10,30,42]
 i=0
-while i < len(dats):
-    a=dats[i]
-    if a > 50:
-        print([i])
-    i+=1 
+while i < len(guess):
+    if guess[i]==secret:
+        print(i+1)
+    i+=1
  
 
       
