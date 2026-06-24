@@ -57,12 +57,23 @@
 
 #part 2
 #mission 1
-items=["a","x","b","x","x"]
+# items=["a","x","b","x","x"]
+# i=0
+# while i <len(items):
+#     items.remove("x")
+#     i+=1
+# print(items)    
+#mission 2
+matrix=[[1,2],[3,4],[5,6]]
 i=0
-while i <len(items):
-    items.remove("x")
+while i < len(matrix):
+    a=0
+    while a<len(matrix[i]):
+        print(matrix[i][a])
+        a+=1
     i+=1
-print(items)    
+ 
+
       
 
     
