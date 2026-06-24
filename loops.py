@@ -19,14 +19,17 @@
 #     num+=1
 #     print(total)
 #mission 4
-items=[2,4,6,8]
+# items=[2,4,6,8]
+# i=0
+# while i < len(items):
+#     print(items[i])
+#     i+=1
+#     if items[i]>5:
+#         break
+#mission 5
 i=0
-while i < len(items):
-    print(items[i])
+while i<10:
+    if i%2==0:
+        print(i)
     i+=1
-    if items[i]>5:
-        break
-
-
-      
-
+    
