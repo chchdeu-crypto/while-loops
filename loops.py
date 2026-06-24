@@ -27,9 +27,16 @@
 #     if items[i]>5:
 #         break
 #mission 5
+# i=0
+# while i<10:
+#     if i%2==0:
+#         print(i)
+#     i+=1
+#missin 6
+agents= ["alpha","bravo","charlie"]
 i=0
-while i<10:
-    if i%2==0:
-        print(i)
+while i<len(agents):
+    print(agents[i])
     i+=1
+    
     
