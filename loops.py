@@ -73,11 +73,19 @@
 #         a+=1
 #     i+=1
 #mission 3
-num=[1,2,3,4,5,]
-i=len(num)-1
-while i >= 0:
-    print(num[i])
-    i-=1
+# num=[1,2,3,4,5,]
+# i=len(num)-1
+# while i >= 0:
+#     print(num[i])
+#     i-=1
+#mission 4
+dats=[10,30,55,20,80]
+i=0
+while i < len(dats):
+    a=dats[i]
+    if a > 50:
+        print([i])
+    i+=1 
  
 
       
