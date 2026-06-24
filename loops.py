@@ -64,14 +64,20 @@
 #     i+=1
 # print(items)    
 #mission 2
-matrix=[[1,2],[3,4],[5,6]]
-i=0
-while i < len(matrix):
-    a=0
-    while a<len(matrix[i]):
-        print(matrix[i][a])
-        a+=1
-    i+=1
+# matrix=[[1,2],[3,4],[5,6]]
+# i=0
+# while i < len(matrix):
+#     a=0
+#     while a<len(matrix[i]):
+#         print(matrix[i][a])
+#         a+=1
+#     i+=1
+#mission 3
+num=[1,2,3,4,5,]
+i=len(num)-1
+while i >= 0:
+    print(num[i])
+    i-=1
  
 
       
