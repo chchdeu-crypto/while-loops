@@ -44,17 +44,25 @@
 #     i=i*2
 # print(i)    
 #miision 9
-data = [3,7,2,-1,5]
-i=0
-sum=0
-while i < len(data):
-    if data[i]==-1:
-        break
-    sum+=data[i]
-    i+=1
-print(sum)    
-       
+# data = [3,7,2,-1,5]
+# i=0
+# sum=0
+# while i < len(data):
+#     if data[i]==-1:
+#         break
+#     sum+=data[i]
+#     i+=1
+# print(sum)    
+#mission 10
 
+#part 2
+#mission 1
+items=["a","x","b","x","x"]
+i=0
+while i <len(items):
+    items.remove("x")
+    i+=1
+print(items)    
       
 
     
